@@ -104,7 +104,7 @@ a.link:hover, a.link:focus {
 *******************/
 .card-no-border .left-sidebar,
 .card-no-border .sidebar-nav {
-  background: #242a33; }
+  background: #ffffff; }
 
 .mini-sidebar .sidebar-nav {
   background: transparent; }
@@ -132,7 +132,7 @@ a.link:hover, a.link:focus {
     color: #ffffff; }
 
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
-  color: #ffffff; }
+  color: #141212; }
   .sidebar-nav ul li a.active i, .sidebar-nav ul li a:hover i {
     color: #ffffff; }
 

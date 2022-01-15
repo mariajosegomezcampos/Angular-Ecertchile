@@ -564,7 +564,6 @@ Labels
 .label {
   padding: 3px 10px;
   line-height: 13px;
-  color: #ffffff;
   font-weight: 400;
   border-radius: 4px;
   font-size: 75%; }
@@ -802,7 +801,7 @@ sidebar navigation
       list-style: none; }
       .sidebar-nav ul li a {
         color: #687384;
-        padding: 8px 35px 8px 15px;
+        padding: 0px 35px 0px 15px;
         display: block;
         font-size: 14px;
         font-weight: 400; }
@@ -941,7 +940,7 @@ When click on sidebar toggler and also for tablet
     width: 70px; }
   .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
     width: 290px;
-    background: #edf0f5; }
+    background: #323233; }
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .hide-menu {
       display: inline; }
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .label {
@@ -1033,6 +1032,7 @@ File: scss
   .topbar .navbar-collapse {
     padding: 0 10px; }
   .topbar .top-navbar {
+    background-color: #fff;
     min-height: 70px;
     padding: 0px; }
     .topbar .top-navbar .dropdown-toggle::after {

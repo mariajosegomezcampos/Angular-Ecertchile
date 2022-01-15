@@ -108,17 +108,17 @@ a.link:hover, a.link:focus {
 *******************/
 .card-no-border .left-sidebar,
 .card-no-border .sidebar-nav {
-  background: #242a33; }
+  background: #b7c1cf; }
 
 .mini-sidebar .sidebar-nav {
   background: transparent; }
 
 @media (min-width: 768px) {
   .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
-    background: #1c2128; } }
+    background: #b7c1cf; } }
 
 .sidebar-nav {
-  background: #242a33; }
+  background: #b7c1cf; }
 
 .user-profile .profile-text a {
   color: #687384 !important; }

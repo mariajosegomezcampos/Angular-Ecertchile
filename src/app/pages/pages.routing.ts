@@ -4,7 +4,11 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
-import { Grafica1Component } from './grafica1/grafica1.component';
+import { AutomateSignaturesComponent } from './automate-signatures/automate-signatures.component';
+import { MyDocumentsComponent } from './my-documents/my-documents.component';
+import { MyContactsComponent } from './my-contacts/my-contacts.component';
+import { SendDocumentsComponent } from './send-documents/send-documents.component';
+import { EnableSignaturesComponent } from './enable-signatures/enable-signatures.component';
 
 const routes: Routes = [
     { 
@@ -13,7 +17,11 @@ const routes: Routes = [
         children: [
             { path: '', component: DashboardComponent },
             { path: 'progress', component: ProgressComponent },
-            { path: 'grafica1', component: Grafica1Component },
+            { path: 'automatiza-firmas', component: AutomateSignaturesComponent },
+            { path: 'mis-documentos', component: MyDocumentsComponent },
+            { path: 'mis-contactos', component: MyContactsComponent },
+            { path: 'enviar-documentos', component: SendDocumentsComponent },
+            { path: 'habilita-firmas', component: EnableSignaturesComponent },
         ]
     },
 ];
